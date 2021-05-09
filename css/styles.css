@@ -8,6 +8,9 @@ body {
     font-family: Roboto, sans-serif; 
     letter-spacing: 0.03em;
 } 
+a {
+    text-decoration: none;
+}
 .list {
     list-style: none;
 }
@@ -22,9 +25,15 @@ body {
     color: #000000;
 }
 /* Навигация сайта */
-.site-nav .link,
-.contacs-nav .link {
+.site-nav .link{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contacs-nav .link {
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -144,11 +153,13 @@ body {
 }
 .address .text {
     color: #FFFFFF;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
 .address .link {
     color: #FFFFFF99;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
