@@ -16,7 +16,7 @@ body {
     margin-right: auto;
     border: 1px solid red;
 }
-a {
+.link {
     text-decoration: none;
 }
 .list {
