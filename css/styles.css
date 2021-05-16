@@ -23,6 +23,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.header{
+    border-bottom: 1px solid #ECECEC;
+}
 /*Логотип */
 .logo {
     margin-right: 93px;
@@ -36,9 +39,6 @@ body {
     color: #000000;
 }
 /* Навигация сайта */
-.top-line{
-    border-bottom: 1px solid #ECECEC;
-}
 .top-line, .nav {
     display: flex;
     align-items: center;
@@ -87,6 +87,8 @@ body {
 .hero {
     background-color: #2F303A;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title {
     color: #FFFFFF;
@@ -131,6 +133,7 @@ body {
 }
 .section-features .text{
     font-size: 14px;
+    line-height: 1.71;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -149,12 +152,16 @@ body {
 .section-team { 
     background-color: #F5F4FA;
 }
+.description-foto{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .section-team .name{
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -162,7 +169,7 @@ body {
     font-size: 16px;
     line-height: 1.19;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
 }
 /* Секции страницы Порфолио */
@@ -182,32 +189,28 @@ body {
 }
 .list-img .item {
     width: 370px;
-    flex-basis: calc(100%/3-30px);
+    flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+}
+.title-text{
     border: 1px solid #ECECEC;
     border-top: 0;
-}
-.list-img .picture{
-    margin-bottom: 20px;
+    padding: 20px 24px 20px 24px;
 }
 .section-portfolio .title{
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 4px;
-    margin-left: 24px;
-    margin-right: 24px;
 }
 .section-portfolio .text{
     font-size: 16px;
     line-height: 1.87;
     margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-bottom: 0;
 }
 /* Кнопки */
 .button {
@@ -249,6 +252,8 @@ body {
 /* Подвал */
 .site-footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logo-footer{
     color: #2196F3;
@@ -256,23 +261,28 @@ body {
     font-size: 26px;
     line-height: 1.19;
     display: inline-block;
-    padding-top: 60px;
     margin-bottom: 20px;
 }
 .logo-footer .accent{
     color: #FFFFFF;
 }
-.address .text {
+.address .text{
     color: #FFFFFF;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    margin-bottom: 9px;
 }
 .address .link {
     color: #FFFFFF99;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    display: inline-block;
+    margin-bottom: 9px;
+}
+.address .last{
+    margin-bottom: 0px;
 }
 .address .link:hover,
 .address .link:focus { 
